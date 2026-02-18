@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gourmet Kitchen - Restaurant Landing Page</title>
+    <link rel="stylesheet" href="restaurant-styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">The Gourmet Kitchen</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to The Gourmet Kitchen</h1>
+            <p>Experience fine dining at its best</p>
+        </section>
+
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-cards">
+                <div class="menu-card">
+                    <h3>Appetizers</h3>
+                    <p>Fresh and delicious starters</p>
+                </div>
+                <div class="menu-card">
+                    <h3>Main Courses</h3>
+                    <p>Premium quality entrees</p>
+                </div>
+                <div class="menu-card">
+                    <h3>Desserts</h3>
+                    <p>Sweet indulgences</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <div class="slider">
+                <img class="slide" src="image1.jpg" alt="Restaurant ambiance">
+                <img class="slide" src="image2.jpg" alt="Delicious food">
+                <img class="slide" src="image3.jpg" alt="Happy customers">
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">❮ Previous</button>
+            <button class="next" onclick="changeSlide(1)">Next ❯</button>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: info@gourmetkitchen.com</p>
+            <p>Address: 123 Culinary Lane, Food City, FC 12345</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Gourmet Kitchen. All rights reserved.</p>
+    </footer>
+
+    <script src="restaurant-script.js"></script>
+</body>
+</html>
